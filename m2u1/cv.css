@@ -1,0 +1,63 @@
+h1 {
+    /* color: green; */
+    /* Color de la fuente */
+    /* background-color: yellow; */
+    /* Fondo */
+    text-align: left;
+    /*Aliniación*/
+    text-transform: uppercase;
+    font-family: 'Special Elite', cursive;
+}
+
+h2 {
+    color: green;
+    font-size: 40px;
+    font-family: 'Special Elite', cursive;
+}
+
+p {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 25px;
+    /* Alto de linea */
+}
+
+#caja {
+    background-color: orange;
+    color: blue;
+    font-style: italic;
+    /* width: 300px;
+    height: 300px; */
+    padding: 20px;
+    box-sizing: border-box;
+    /* margin-left: 30px; */
+    border: 5px solid rgb(24, 62, 184);
+    text-align: center;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 3px solid black;
+}
+
+.destacados {
+    font-size: 25px;
+    color: brown;
+}
+
+.lista {
+    background-color: aqua;
+}
+
+img {
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    box-shadow: 18px 15px 17px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 18px 15px 17px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 18px 15px 17px -5px rgba(0, 0, 0, 0.75);
+}
+
+body {
+    background: rgb(242, 239, 144);
+    background: linear-gradient(90deg, rgba(242, 239, 144, 1) 11%, rgba(0, 212, 255, 1) 100%);
+}
